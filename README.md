@@ -14,7 +14,7 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 ---
 
 ## Informações do Professor: 
-- **Nome:** [Jonas Pontes];
+- **Nome:** Jonas Pontes;
 - **Lattes:** [Link de acesso](http://lattes.cnpq.br/3068708429112735);
 - **Google Scholar:** [Jonas Pontes](https://scholar.google.com.br/citations?user=MPXPcRsAAAAJ&hl=pt-BR&oi=ao);
 - **Currículo:**
