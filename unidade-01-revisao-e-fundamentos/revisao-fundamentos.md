@@ -72,14 +72,15 @@ int main(){
 - Modificador de `double`: `long`.
 - Tabela de tipos, tamanho do dado (em bits) e intervalo numérico (principais).
 
-| Palavra     | Tipo      | Tamanho (bits) | Valor Mínimo                  | Valor Máximo              |
-|-------------|----------------------------|-------------------------------|---------------------------|
-| `char`      | Caractere | 8              | -128                          | 127                       |
-| `int`       | Inteiro   | 16             | -32.768                       | 32.767                    |
-| `long int`  | Inteiro   | 32             |-2.147.483.648                 | 2.147.483.647             |
-| `float`     | Real com precisão simples  | 32             | 3,4 E-38     |  3,4E+38                  |
-| `double`    | Real com precisão dupla    | 64             | 1,7 E-308    |  1,7E+308                 |
-| `long double`    | Real com precisão dupla longa   | 80             | 3,4E-4932    |  3,4E+4932      |
+| Palavra       | Tipo                          | Tamanho (bits) | Valor Mínimo     | Valor Máximo   |
+|---------------|-------------------------------|----------------|------------------|----------------|
+| `char`        | Caractere                     | 8              | -128             | 127            |
+| `int`         | Inteiro                       | 16             | -32.768          | 32.767         |
+| `long int`    | Inteiro                       | 32             | -2.147.483.648   | 2.147.483.647  |
+| `float`       | Real com precisão simples     | 32             | 3,4E-38          | 3,4E+38        |
+| `double`      | Real com precisão dupla       | 64             | 1,7E-308         | 1,7E+308       |
+| `long double` | Real com precisão dupla longa | 80             | 3,4E-4932        | 3,4E+4932      |
+
 
 >> De modo geral, o modificador `long` dobra a capacidade do tipo de dados e o modificador `unsigned` faz a variável ocupar somente valores positivos. Por exemplo, `unsigned int` armazena valores entre 0 e 65.535.
 
@@ -101,20 +102,21 @@ As funções para entradas e saídas precisam de um código que indica o tipo de
 
 
 | Código | Significado |
-------------------------
-| %c | Leitura e escrita de caractere |
-| %d | Leitura e escrita de inteiro em formato decimal |
-| %i | Leitura e escrita de inteiro |
-| %e | Leitura e escrita de número em notação científica (com `e` minúsculo) |
-| %E | Leitura e escrita de número em notação científica (com `E` maiúsculo) |
-| %f | Leitura e escrita de número de ponto flutuante com precisão simples |
-| %lf| Leitura e escrita de número de ponto flutuante com precisão dupla |
-| %o | Leitura e escrita de número em notação octal |
-| %s | Leitura e escrita de string |
-| %x | Leitura e escrita de número hexadecimal com letras minúsculas |
-| %X | Leitura e escrita de número hexadecimal com letras maiúsculas |
-| %% | Exibe um sinal de % (exclusivo para printf) |
-| %p | Exibe um ponteiro (exclusivo para printf) |
+|--------|-------------|
+| %c     | Leitura e escrita de caractere |
+| %d     | Leitura e escrita de inteiro em formato decimal |
+| %i     | Leitura e escrita de inteiro |
+| %e     | Leitura e escrita de número em notação científica (com `e` minúsculo) |
+| %E     | Leitura e escrita de número em notação científica (com `E` maiúsculo) |
+| %f     | Leitura e escrita de número de ponto flutuante com precisão simples |
+| %lf    | Leitura e escrita de número de ponto flutuante com precisão dupla |
+| %o     | Leitura e escrita de número em notação octal |
+| %s     | Leitura e escrita de string |
+| %x     | Leitura e escrita de número hexadecimal com letras minúsculas |
+| %X     | Leitura e escrita de número hexadecimal com letras maiúsculas |
+| %%     | Exibe um sinal de `%` (exclusivo para `printf`) |
+| %p     | Exibe um ponteiro (exclusivo para `printf`) |
+
 
 
 ### 3. Operadores Aritméticos
