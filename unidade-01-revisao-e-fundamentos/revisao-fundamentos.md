@@ -70,7 +70,6 @@ int main(){
 - Modificadores de `int`: `short`, `long`,`signed` e `unsigned`;
 - Tipos de ponto flutuante:   `float` e `double`;
 - Modificador de `double`: `long`.
-- 
 - Tabela de tipos, tamanho do dado (em bits) e intervalo numérico (principais).
 
 | Palavra     | Tipo      | Tamanho (bits) | Valor Mínimo                  | Valor Máximo              |
@@ -100,21 +99,22 @@ As funções para entradas e saídas precisam de um código que indica o tipo de
 
 **Códigos utilizados:**
 
+
 | Código | Significado |
 ------------------------
-%c | Leitura e escrita de caractere 
-%d | Leitura e escrita de inteiro em formato decimal
-%i | Leitura e escrita de inteiro
-%e | Leitura e escrita de número em notação científica (com `e` minúsculo)
-%E | Leitura e escrita de número em notação científica (com `E` maiúsculo)
-%f | Leitura e escrita de número de ponto flutuante com precisão simples
-%lf| Leitura e escrita de número de ponto flutuante com precisão dupla
-%o | Leitura e escrita de número em notação octal
-%s | Leitura e escrita de string
-%x | Leitura e escrita de número hexadecimal com letras minúsculas
-%X | Leitura e escrita de número hexadecimal com letras maiúsculas
-%% | Exibe um sinal de % (exclusivo para printf)
-%p | Exibe um ponteiro (exclusivo para printf)
+| %c | Leitura e escrita de caractere |
+| %d | Leitura e escrita de inteiro em formato decimal |
+| %i | Leitura e escrita de inteiro |
+| %e | Leitura e escrita de número em notação científica (com `e` minúsculo) |
+| %E | Leitura e escrita de número em notação científica (com `E` maiúsculo) |
+| %f | Leitura e escrita de número de ponto flutuante com precisão simples |
+| %lf| Leitura e escrita de número de ponto flutuante com precisão dupla |
+| %o | Leitura e escrita de número em notação octal |
+| %s | Leitura e escrita de string |
+| %x | Leitura e escrita de número hexadecimal com letras minúsculas |
+| %X | Leitura e escrita de número hexadecimal com letras maiúsculas |
+| %% | Exibe um sinal de % (exclusivo para printf) |
+| %p | Exibe um ponteiro (exclusivo para printf) |
 
 
 ### 3. Operadores Aritméticos
