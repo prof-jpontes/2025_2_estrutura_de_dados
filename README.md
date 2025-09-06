@@ -54,7 +54,7 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 - Recursividade;
 - Ponteiros
 - Estrutura de dados homogêneas: vetores e matrizes.
-> Carga horária: 12 aulas.
+> Carga horária: 21 aulas.
 
 ### Unidade Temática 2: Métodos de Ordenação e Busca
 - Algoritmos de ordenação: Bubble Sort, Selection Sort, Insertion Sort e Merge Sort;
@@ -62,11 +62,13 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 - Eficiência dos métodos de ordenação e busca.
 > Carga horária: 18 aulas.
 
-### Unidade Temática 3: Tipos Abstratos de Dados (TADs)
-- Definição, interface e implementação;
-- Alocação estática e dinâmica de memória;
-- Implementação de TADs básicos em C.
-> Carga horária: 12 aulas.
+### Unidade Temática 3: Tipos Abstratos de Dados (TADs), registros e alocação de memória
+- TAD: definição, interface e implementação;
+- Estrutura de dados heterogêneas;
+- Declaração, acesso e manipulação de `structs`;
+- `Struct` como base para organização e modelagem de TADs;
+- Alocação estática e dinâmica de memória.
+> Carga horária: 15 aulas.
 
 ### Unidade Temática 4: Listas
 - Listas simplesmente encadeadas;
@@ -78,25 +80,24 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 ### Unidade Temática 5: Filas e Pilhas
 - Filas estáticas;
 - Filas dinâmicas;
-- Inserção e remoção em filas;
 - Pilhas estáticas;
 - Pilhas dinâmicas;
-- Inserção e remoção em pilhas.
-> Carga horária: 18 aulas.
+- Operações com filas e pilhsa.
+> Carga horária: 12 aulas.
 
 ### Unidade Temática 6: Árvores de Busca
 - Conceitos de árvores: nós, níveis, altura, percurso;
 - Árvores binárias de busca: inserção, remoção e busca;
 - Balanceamento básico: introdução a AVL;
 - Aplicações práticas de árvores.
-> Carga horária: 18 aulas.
+> Carga horária: 15 aulas.
 
 ### Unidade Temática 7: Introdução a Grafos
 - Conceitos básicos de grafos: vértices, arestas, grau, caminhos;
 - Representação de grafos: listas de adjacência e matrizes;
 - Algoritmos de busca em profundidade e busca em largura;
 - Aplicações de grafos em problemas computacionais.
-> Carga horária: 18 aulas.
+> Carga horária: 15 aulas.
 
 ### Resumo
 | Unidade | Tema                                                       | Diretório                       |
@@ -107,7 +108,7 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 |   04    | Listas                                                     |[unidade-04-listas](unidade-04-listas)|
 |   05    | Filas e Pilhas                                             |[unidade-05-filas-e-pilhas](unidade-05-filas-e-pilhas)|
 |   06    | Árvores de Busca                                           |[unidade-06-árvores-de-busca](unidade-06-arvores-de-busca)|
-|   07    | Grafos                                        |[unidade-07-grafos](unidade-07-grafos)|
+|   07    | Grafos                                                     |[unidade-07-grafos](unidade-07-grafos)|
 
 ---
 
@@ -157,16 +158,23 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 ## 📚 Bibliografia
 
 ### Básica:
+
 PREISS, B. R. **Estruturas de dados e algoritmos**. 20. ed. Rio de Janeiro: Elsevier, 2001. 584 p. 
+
 GUIMARÃES, A. M.; LAGES, N. A. C. **Algoritmos e estruturas de dados**. 1. ed. Rio de Janeiro: LTC, 1994. 232 p.
+
 ASCENCIO, A. F. G. **Estrutura de Dados**: algoritmos, análise da complexidade e implementações em JAVA e C/C++. 1. ed. São Paulo: Pearson, 2011. 448 p. 
 
 ### Complementar:
-Bibliografia Complementar: 
+
 TANENBAUM, A. et al. **Estruturas de dados usando C**. 1. ed. São Paulo: Pearson, 1995. 912 p. 
+
 CORMEN, T. H. et al. **Algoritmos**: teoria e prática. 3. ed. Rio de Janeiro: Campus, 2012. 944 p. 
+
 SZWARCFITER, J. L.; MARKENZON, L. **Estruturas de dados e seus algoritmos**. 3. ed. Rio de Janeiro: LTC, 2010. 318 p. 
+
 TOSCANI, L. V. **Complexidade de algoritmos**. 3. ed. Porto Alegre: Bookman, 2012. 280 p. 13 v. 
+
 EDELWEISS, N.; GALANTE, R. **Estrutura de dados**. 1. ed. Porto Alegre: Bookman, 2009. 262 p. 18 v.
 
 ---

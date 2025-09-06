@@ -5,6 +5,15 @@ Senhores estudantes,
 
 Sejam bem-vindos à disciplina de Estrutura de Dados, ministrada no curso superior de tecnologia em Sistemas para Internet do Ifac/Campus Rio Branco. Eu sou o professor Jonas Pontes e estarei convosco nesse componente curricular.
 
+## 📑 Sumário
+
+- [Iniciar](#️-iniciar)
+- [Estrutura Sequencial](#estrutura-sequencial)
+  - [1. Introdução à sintaxe C](###-1.-Introdução-à-sintaxe-C)
+  - [2. Entrada e saída](###-2.-Entrada-e-saída)
+  - [3. Operadores Aritméticos](###-3.-Operadores-Aritméticos)
+  - [4. Casting de Dados](###-4.-Casting-de-Dados)
+  - [5. Exercícios de Fixação](#-5-exercícios-de-fixação)
 
 
 >> 📅 Sexta-feira, 29/8/2025 
@@ -52,6 +61,8 @@ int main(){
 > Agora vamos estudar a anatomia desse programa em C, ou seja, o que cada parte representa.
 ---
 
+>> 📅 Quarta-feira, 10/9/2025 
+
 ## Estrutura Sequencial
 
 ### 1. Introdução à sintaxe C
@@ -89,7 +100,7 @@ int main(){
 #### Exemplo Prático
 - Escrever um programa simples que declare variáveis de diferentes tipos.
 
-### 2. Entrada e saída em Java
+### 2. Entrada e saída
 
 **🎯 Objetivo:**
 Ensinar como interagir com o usuário, receber dados e exibir informações.
@@ -110,6 +121,7 @@ As funções para entradas e saídas precisam de um código que indica o tipo de
 | %E     | Leitura e escrita de número em notação científica (com `E` maiúsculo) |
 | %f     | Leitura e escrita de número de ponto flutuante com precisão simples |
 | %lf    | Leitura e escrita de número de ponto flutuante com precisão dupla |
+| %lF    | Leitura e escrita de número de ponto flutuante com precisão dupla longo |
 | %o     | Leitura e escrita de número em notação octal |
 | %s     | Leitura e escrita de string |
 | %x     | Leitura e escrita de número hexadecimal com letras minúsculas |
@@ -153,6 +165,12 @@ Apresentar os operadores aritméticos básicos da linguagem C e como utilizá-lo
 
 - Modifique o programa para que ele aceite números double e observe as diferenças nos resultados das divisões.
 
+**Questões de prova diagnóstica:**
+- Problema [1004](https://judge.beecrowd.com/pt/problems/view/1004);
+- Problema [1013](https://judge.beecrowd.com/pt/problems/view/1013);
+- Problema [1014](https://judge.beecrowd.com/pt/problems/view/1014);
+- Problema [1019](https://judge.beecrowd.com/pt/problems/view/1019);
+
 ---
 
 ### 4. Casting de Dados
@@ -191,3 +209,149 @@ printf("%d", valorInteiro); // Saída: 9 (parte decimal é descartada)
 Em casting explícito, um valor não é arredondado; ele é "truncado".
 
 > ⚠️ *Atenção:* Ao converter de double para int, a parte fracionária é perdida!
+
+---
+
+### 📝 5. Exercícios de Fixação
+
+> Exercícios sobre estrutura sequencial: entrada, processamento e saída.
+
+**Exercício 00**
+  
+Escrever um programa que mostre o nome de uma pessoa e sua idade em 31 de dezembro de um determinado ano. Para isso, leia o nome da pessoa, seu ano de nascimento e o ano para o qual deseje calcular a idade.
+
+**Exercício 01**
+
+Desenvolver um programa que peça a base e altura de um triângulo e calcula a sua área.
+
+
+**Exercício 02**
+
+Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma mensagem explicativa, conforme exemplos.
+
+Exemplos:
+
+*Entrada:*
+```
+10  
+30
+```
+
+*Saída:*
+```
+SOMA = 40
+```
+
+**Exercício 03**
+
+Faça um programa para ler o valor do raio de um círculo, e depois mostrar o valor da área deste círculo com **quatro casas decimais** conforme exemplos.
+
+Fórmula da área:** `area = π * raio²`  
+
+Considere:** `π = 3.14159`
+
+Exemplo:
+
+*Entrada:*
+```
+2.00
+```
+
+*Saída:*
+```
+A=12.5664
+```
+
+**Exercício 04**
+
+Fazer um programa para ler quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula:  
+`DIFERENCA = (A * B - C * D)`
+
+Exemplo:
+
+*Entrada:*
+```
+5  
+6  
+7  
+8
+```
+
+*Saída:*
+```
+DIFERENCA = -26
+```
+
+**Exercício 05**
+
+Fazer um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcule o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com **duas casas decimais**.
+
+Exemplo:
+
+*Entrada:*
+```
+25  
+100  
+5.50
+```
+
+*Saída:*
+```
+NUMBER = 25  
+SALARY = U$ 550.00
+```
+
+**Exercício 06**
+
+Fazer um programa para ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Calcule e mostre o valor a ser pago.
+
+Exemplo:
+
+*Entrada:*
+```
+12 1 5.30  
+16 2 5.10
+```
+
+*Saída:*
+```
+VALOR A PAGAR: R$ 15.50
+```
+
+
+**Exercício 07**
+
+Fazer um programa que leia três valores com ponto flutuante de dupla precisão: `A`, `B` e `C`. Em seguida, calcule e mostre:
+
+- a) a área do triângulo retângulo que tem A por base e C por altura.
+- b) a área do círculo de raio C. (π = 3.14159)
+- c) a área do trapézio que tem A e B por bases e C por altura.
+- d) a área do quadrado que tem lado B.
+- e) a área do retângulo que tem lados A e B.
+
+Exemplo:
+
+*Entrada:*
+```
+3.0 4.0 5.2
+```
+
+*Saída:*
+```
+TRIANGULO: 7.800  
+CIRCULO: 84.949  
+TRAPEZIO: 18.200  
+QUADRADO: 16.000  
+RETANGULO: 12.000
+```
+
+**Exercício 08**
+
+Problema **Divisão do Tesouro (OBI)**:  
+  [https://olimpiada.ic.unicamp.br/pratique/pj/2020/f1/tesouro/](https://olimpiada.ic.unicamp.br/pratique/pj/2020/f1/tesouro/).
+
+**Exercício 09**
+Problema **Piso da escola (OBI)**:  
+  [https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/piso/](https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/piso/).
+
+---
