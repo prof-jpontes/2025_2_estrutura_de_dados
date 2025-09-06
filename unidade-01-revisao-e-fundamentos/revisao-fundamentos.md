@@ -9,10 +9,10 @@ Sejam bem-vindos à disciplina de Estrutura de Dados, ministrada no curso superi
 
 - [Iniciar](#️-iniciar)
 - [Estrutura Sequencial](#estrutura-sequencial)
-  - [1. Introdução à Sintaxe C](#-1-introdução-à-sintaxe-c) 
-  - [2. Entrada e Saída](#-2-entrada-e-saída)
-  - [3. Operadores Aritméticos](#-3-operadores-aritméticos)
-  - [4. Casting de Dados](#-4-casting-de-dados)
+  - [1. Introdução à Sintaxe C](#1-introdução-à-sintaxe-c) 
+  - [2. Entrada e Saída](#2-entrada-e-saída)
+  - [3. Operadores Aritméticos](#3-operadores-aritméticos)
+  - [4. Casting de Dados](#4-casting-de-dados)
   - [5. Exercícios de Fixação](#-5-exercícios-de-fixação)
 
 
