@@ -9,10 +9,10 @@ Sejam bem-vindos à disciplina de Estrutura de Dados, ministrada no curso superi
 
 - [Iniciar](#️-iniciar)
 - [Estrutura Sequencial](#estrutura-sequencial)
-  - [1. Introdução à sintaxe C](###-1.-Introdução-à-sintaxe-C)
-  - [2. Entrada e saída](###-2.-Entrada-e-saída)
-  - [3. Operadores Aritméticos](###-3.-Operadores-Aritméticos)
-  - [4. Casting de Dados](###-4.-Casting-de-Dados)
+  - [1. Introdução à Sintaxe C](###-1-introdução-à-sintaxe-c) 
+  - [2. Entrada e Saída](###-2-entrada-e-saída)
+  - [3. Operadores Aritméticos](###-3-operadores-aritméticos)
+  - [4. Casting de Dados](###-4-casting-de-dados)
   - [5. Exercícios de Fixação](#-5-exercícios-de-fixação)
 
 
@@ -100,7 +100,7 @@ int main(){
 #### Exemplo Prático
 - Escrever um programa simples que declare variáveis de diferentes tipos.
 
-### 2. Entrada e saída
+### 2. Entrada e Saída
 
 **🎯 Objetivo:**
 Ensinar como interagir com o usuário, receber dados e exibir informações.
