@@ -62,7 +62,7 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 - Eficiência dos métodos de ordenação e busca.
 > Carga horária: 18 aulas.
 
-### Unidade Temática 3: Tipos Abstratos de Dados (TADs), registros e alocação de memória
+### Unidade Temática 3: Tipos Abstratos de Dados (TADs), Registros e Alocação de Memória
 - TAD: definição, interface e implementação;
 - Estrutura de dados heterogêneas;
 - Declaração, acesso e manipulação de `structs`;
@@ -176,6 +176,12 @@ SZWARCFITER, J. L.; MARKENZON, L. **Estruturas de dados e seus algoritmos**. 3. 
 TOSCANI, L. V. **Complexidade de algoritmos**. 3. ed. Porto Alegre: Bookman, 2012. 280 p. 13 v. 
 
 EDELWEISS, N.; GALANTE, R. **Estrutura de dados**. 1. ed. Porto Alegre: Bookman, 2009. 262 p. 18 v.
+
+---
+
+## 📅 Cronograma
+
+<img width="1851" height="1259" alt="Imagem1" src="https://github.com/user-attachments/assets/fd0e7f8c-c4f9-4a17-8f0f-f04b46e3b8dc" />
 
 ---
 
