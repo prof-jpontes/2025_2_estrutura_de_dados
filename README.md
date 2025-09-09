@@ -53,7 +53,7 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 - Revisão de lógica de programação e algoritmos em linguagem C;
 - Recursividade;
 - Ponteiros
-- Estrutura de dados homogêneas: vetores e matrizes.
+- Estruturas de dados homogêneas: vetores e matrizes.
 > Carga horária: 21 aulas.
 
 ### Unidade Temática 2: Métodos de Ordenação e Busca
@@ -82,7 +82,7 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 - Filas dinâmicas;
 - Pilhas estáticas;
 - Pilhas dinâmicas;
-- Operações com filas e pilhsa.
+- Operações com filas e pilhas.
 > Carga horária: 12 aulas.
 
 ### Unidade Temática 6: Árvores de Busca
@@ -134,7 +134,7 @@ Este repositório reúne os conteúdos, exemplos e projetos desenvolvidos na dis
 
 > *Ambiente para escrita de código* — 🔗 [VS Code](https://code.visualstudio.com/download);
 
-> *GitHub* — 🔗 [Repositório da disciplina](github.com);
+> *GitHub* — 🔗 [Repositório da disciplina](https://github.com/prof-jpontes/2025_2_estrutura_de_dados);
 
 > *Suap* — 🔗 [Suap/Ifac](https://suap.ifac.edu.br);
 
