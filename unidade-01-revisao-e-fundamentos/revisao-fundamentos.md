@@ -130,6 +130,18 @@ As funções para entradas e saídas precisam de um código que indica o tipo de
 | %p     | Exibe um ponteiro (exclusivo para `printf`) |
 
 
+---
+
+>> 📅 Sexta-feira, 12/9/2025 
+
+**Revisão da aula anterior:** 
+- Tipos de dados;
+- Variáveis;
+- Entrada e saída
+
+```c
+
+```
 
 ### 3. Operadores Aritméticos
 
@@ -147,6 +159,18 @@ Apresentar os operadores aritméticos básicos da linguagem C e como utilizá-lo
 | `%`      | Módulo (resto)    | `5 % 2`              | `1`       |
 
 > ⚠️ A divisão entre inteiros retorna apenas a parte inteira do resultado.
+
+
+### 4. Operadores Relacionais
+
+| Operador | Significado      | Exemplo (a = 5, b = 10)| 
+|----------|------------------|------------------------|
+| `==`     | Igual a          | `a == b` → 0           |
+| `!=`     | Diferente de     | `a != b` → 1           |
+| `>`      | Maior que        | `b > a`  → 1           |
+| `<`      | Menor que        | `a < b`  → 1           |
+| `>=`     | Maior ou igual a | `a >= b` → 0           |
+| `<=`     | Menor ou igual a | `a <= b` → 1           | 
 
 ---
 
@@ -353,5 +377,216 @@ Problema **Divisão do Tesouro (OBI)**:
 **Exercício 09**
 Problema **Piso da escola (OBI)**:  
   [https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/piso/](https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/piso/).
+
+---
+
+## 🔀 Desvios Condicionais
+
+**🎯 Objetivo:**
+Apresentar as estruturas de decisão, permitindo que o programa tome diferentes caminhos com base em condições lógicas.
+
+
+### 🧱 1. Estrutura do `if`, `else if` e `else`
+
+```c
+if (condição) {
+    // bloco executado se condição for verdadeira
+} else if (outraCondição) {
+    // bloco executado se a outraCondição for verdadeira
+} else {
+    // bloco executado se nenhuma das condições for verdadeira
+}
+```
+#### Exemplo
+
+```c
+int idade = 18;
+
+if (idade < 18) {
+    printf("Menor de idade\n");
+} else if (idade == 18) {
+    printf("Tem exatamente 18 anos\n");
+} else {
+    printf("Maior de idade\\n");
+}
+```
+
+
+#### 🔁 Encadeamento de condições
+
+> É possível encadear várias condições usando os **operadores lógicos**:
+
+- && (E lógico)
+
+- || (OU lógico)
+
+- ! (NÃO lógico)
+
+```c
+if (idade >= 18 && idade < 65) {
+    printf("Adulto não idoso\n");
+}
+```
+
+---
+
+### 📦 2. Estrutura switch
+
+Boa alternativa ao if-else quando temos várias comparações simples com o mesmo valor. É necessário que o resultado da comparação não seja um intervalo, mas sim em um valor específico. 
+
+### Exemplo
+```c
+int dia = 3;
+
+switch (dia) {
+    case 1:
+        printf("Domingo\n");
+        break;
+    case 2:
+        printf("Segunda-feira\n");
+        break;
+    case 3:
+        printf("Terça-feira\n");
+        break;
+    case 4:
+        printf("Quarta-feira\n");
+        break;
+    case 5:
+        printf("Quinta-feira\n");
+        break;
+    case 6:
+        printf("Sexta-feira\n");
+        break;
+    case 7:
+        printf("Sábado-feira\n");
+        break;
+    default:
+        printf("Dia inválido\n");
+}
+```
+
+---
+
+### 📝 3. Exercícios de Fixação
+
+- Ler a idade de uma pessoa e exibir:
+
+  - "Menor de idade" se for menor que 18;
+
+  - "Maior de idade" caso contrário.
+
+- Receber um número de 1 a 7 e imprimir o dia da semana correspondente utilizando switch.
+
+- Escrever um programa que lê dois números inteiros e imprime o maior entre eles.
+
+- Criar um programa que recebe três notas, calcula a média e imprime:
+
+  - "Aprovado" se média ≥ 7,
+
+  - "Recuperação" se média entre 5 e 7,
+
+  - "Reprovado" caso contrário.
+
+ ---
+
+ ## 🔁 Laços de Repetição
+
+ **🎯 Objetivo:**
+Apresentar as estruturas de repetição em C: `while`, `do/while` e `for`, explicando sua sintaxe, funcionamento e diferenças, com exemplos práticos.
+
+
+### 🔄 1. Laço `while`
+
+O laço `while` executa um bloco de código **enquanto** uma condição for verdadeira. A **verificação ocorre antes da execução**.
+
+#### Sintaxe:
+```c
+while (condição) {
+    // bloco de código
+}
+```
+
+#### Exemplo
+
+```c
+int contador = 1;
+
+while (contador <= 5) {
+    printf("Contando: " + contador);
+    contador++;
+}
+```
+>> 📌 O bloco será executado enquanto contador <= 5 for verdadeiro.
+
+>> 🛑 Se a condição for falsa no início, o laço não será executado nenhuma vez.
+
+#### Prática
+> Escreva um programa em C que leia uma quantidade indeterminada pesos de bois de uma fazenda. Quando for lido o valor 0 (zero), a leitura deve ser encerrada e os valores do boi mais pesado, mais leve e a média de massa dos dois devem ser apresentados.
+
+---
+
+### 🔁 2. Laço do/while
+
+O laço do/while executa o bloco de código pelo menos uma vez, e verifica a condição depois. 
+
+#### Sintaxe:
+```c
+do{
+  //bloco de código
+}while (condição);
+```
+
+#### Exemplo
+
+```c
+int contador = 1;
+do{
+  printf("Contando: " + contador);
+  contador++;
+} while(contador <=5);
+```
+>> ✅ O laço sempre executa ao menos uma vez, mesmo que a condição seja falsa logo após a primeira execução.
+
+#### Prática
+> Escrever um programa em C que leia uma quantidade indefinida de números inteiros. Para cada número lido, indicar o dia da semana correspondente, se houver. Senão, indicar isso através de uma mensagem de valor inválido. Caso o usuário digite 0, a aplicação será encerrada. Usar o labelled loop. 
+
+---
+
+### 🔄 3. Laço `for`
+
+O laço for é usado quando sabemos exatamente quantas vezes queremos repetir algo. É muito comum para contagens e percursos em sequências.
+
+#### Sintaxe:
+```c
+for (inicialização; condição; atualização) {
+    // bloco de código
+}
+```
+
+#### Exemplo
+
+```c
+int contador;
+for (int contador = 1; contador <= 5; contador++) {
+    printf("Contando: " + contador);
+}
+```
+>> 📌 Útil para quando o número de repetições é conhecido de antemão.
+
+#### Prática
+> Escrever um programa em C que mostre os números pares entre 0 e 100.
+> Modifique o programa anterior para interromper a execução quando encontrar um número múltiplo de 19.
+> Modifique o programa para mostrar os números pares, desde que não sejam múltiplos de 7. 
+
+---
+
+### 📝 4. Exercícios Práticos
+- Imprimir os números de 1 a 10 usando while, do/while e for.
+
+- Ler um número inteiro n e imprimir todos os números pares de 1 até n.
+
+- Criar um programa que peça ao usuário para digitar senhas até que a senha correta seja informada.
+
+- Fazer um programa que leia 5 números inteiros e calcule a média deles usando um laço.
 
 ---
