@@ -496,8 +496,40 @@ switch (dia) {
  **🎯 Objetivo:**
 Apresentar as estruturas de repetição em C: `while`, `do/while` e `for`, explicando sua sintaxe, funcionamento e diferenças, com exemplos práticos.
 
+---
 
-### 🔄 1. Laço `while`
+### 🔄 1. Laço `for`
+
+O laço for é usado quando sabemos exatamente quantas vezes queremos repetir algo. É muito comum para contagens e percursos em sequências.
+
+#### Sintaxe:
+```c
+for (inicialização; condição; atualização) {
+    // bloco de código
+}
+```
+
+#### Exemplo
+
+```c
+int contador;
+for (int contador = 1; contador <= 5; contador++) {
+    printf("Contando: " + contador);
+}
+```
+>> 📌 Útil para quando o número de repetições é conhecido de antemão.
+
+#### Prática
+> Escrever um programa em C que mostre os números pares entre 0 e 100.
+> Modifique o programa anterior para interromper a execução quando encontrar um número múltiplo de 19.
+> Modifique o programa para mostrar os números pares, desde que não sejam múltiplos de 7. 
+
+
+---
+
+>> 📅 Quarta-feira, 24/9/2025 
+
+### 🔄 2. Laço `while`
 
 O laço `while` executa um bloco de código **enquanto** uma condição for verdadeira. A **verificação ocorre antes da execução**.
 
@@ -527,7 +559,7 @@ while (contador <= 5) {
 
 ---
 
-### 🔁 2. Laço do/while
+### 🔁 3. Laço do/while
 
 O laço do/while executa o bloco de código pelo menos uma vez, e verifica a condição depois. 
 
@@ -554,34 +586,6 @@ do{
 
 ---
 
-### 🔄 3. Laço `for`
-
-O laço for é usado quando sabemos exatamente quantas vezes queremos repetir algo. É muito comum para contagens e percursos em sequências.
-
-#### Sintaxe:
-```c
-for (inicialização; condição; atualização) {
-    // bloco de código
-}
-```
-
-#### Exemplo
-
-```c
-int contador;
-for (int contador = 1; contador <= 5; contador++) {
-    printf("Contando: " + contador);
-}
-```
->> 📌 Útil para quando o número de repetições é conhecido de antemão.
-
-#### Prática
-> Escrever um programa em C que mostre os números pares entre 0 e 100.
-> Modifique o programa anterior para interromper a execução quando encontrar um número múltiplo de 19.
-> Modifique o programa para mostrar os números pares, desde que não sejam múltiplos de 7. 
-
----
-
 ### 📝 4. Exercícios Práticos
 - Imprimir os números de 1 a 10 usando while, do/while e for.
 
@@ -592,3 +596,37 @@ for (int contador = 1; contador <= 5; contador++) {
 - Fazer um programa que leia 5 números inteiros e calcule a média deles usando um laço.
 
 ---
+
+>> 📅 Sexta-feira, 26/9/2025 
+
+ ## 🔁 Estruturas de dados homogêneas — vetores e matrizes
+
+ #### Prática
+> Problema (1174)[https://judge.beecrowd.com/pt/problems/view/1174];
+
+> Problema (1175)[https://judge.beecrowd.com/pt/problems/view/1175];
+
+> Problema (1176)[https://judge.beecrowd.com/pt/problems/view/1176] — obs: fazer sem recalcular posições já calculadas;
+
+> Problema (1179)[https://judge.beecrowd.com/pt/problems/view/1179];
+
+> Problema (1435)[https://judge.beecrowd.com/pt/problems/view/1435];
+
+> Problema (1183)[https://judge.beecrowd.com/pt/problems/view/1183];
+
+> Problema (1184)[https://judge.beecrowd.com/pt/problems/view/1184];
+
+> Problema (1185)[https://judge.beecrowd.com/pt/problems/view/1185];
+
+> Problema (1186)[https://judge.beecrowd.com/pt/problems/view/1186];
+
+> Problema (1187)[https://judge.beecrowd.com/pt/problems/view/1187];
+
+> Problema (3428)[https://judge.beecrowd.com/pt/problems/view/3428];
+
+
+## 🔁 Funções e recursividade
+
+
+
+Escrever um programa em C que leia uma quantidade indefinida de números inteiros. Para cada número lido, indicar o dia da semana correspondente, se houver. Senão, indicar isso através de uma mensagem de valor inválido. Caso o usuário digite 0, a aplicação será encerrada. Usar o labelled loop. 
